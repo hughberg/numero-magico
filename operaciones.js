@@ -13,7 +13,7 @@ function generarNumero(){
 
 	console.log(numero_secreto);
 
-	var mensaje = "Introduce un número par adivinar el número mágico (El 0 finaliza el programa)";
+	var mensaje = "Adivina el número mágico (El 0 finaliza el programa)";
 
 	while(true){
 		var numero_usuario = prompt(mensaje, "0");
